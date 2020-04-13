@@ -1,0 +1,10 @@
+---
+name: MumeiRedstone
+main: Meshida\MumeiRedstone\Loader
+version: 1.0.0
+api: 3.0.0
+load: STARTUP
+authors:
+- Meshida
+description: Redstone for PMMP
+...
