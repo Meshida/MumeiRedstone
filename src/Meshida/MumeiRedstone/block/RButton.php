@@ -37,7 +37,7 @@ class RButton extends Button implements RedstonePowerSource {
 
 	protected $id = $this->id;
 
-	protected $delay = ($this->id == Block::STONE_BUTTON) ? 20 : 30;
+	protected $delay = ($this->id == Block::WOODEN_BUTTON) ? 30 : 20;
 
 	public function getName() : string{
 		switch ($this->id) {

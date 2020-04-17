@@ -3,7 +3,9 @@ namespace Meshida\MumeiRedstone\block;
 
 interface RedstoneComponent
 {
+	
+    public function canBeConnectedFrom(Block $block) : bool;
 
-    public function onRefleshRedstoneSignal(Block $source, Block $from, int $power): void;
+    public function canBeConnectedTo(Block $block) : bool;
 
 }
